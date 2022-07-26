@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img alt="Capa do projeto" src="./img/img.png" width="70%">
+  <img alt="Capa do projeto" src="./img/img.png" width="100%">
 </p>
 
 ## About
