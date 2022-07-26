@@ -6,8 +6,6 @@
 	Project created for focus based on Pomodoro
 </h3>
 
-<br>
-
 <h4 align="center">
 	Status: 🚧 In Construction
 </h4>
