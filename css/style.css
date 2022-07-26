@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --ff-primary: "Roboto", sans-serif;
+  --bc-primary: hsl(0, 0%, 100%);
+  --fc-primary: hsl(240, 6%, 21%);
+  --fc-second: hsl(240, 9%, 89%);
+  --fc-third: hsl(194, 97%, 31%);
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--ff-primary);
+  background: var(--bc-primary);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  height: 68rem;
+  width: 82.2rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  font-size: 12.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--fc-primary);
+  animation: topDown 700ms backwards;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  animation: topDown 700ms 350ms backwards;
+}
+
+.controls button,
+.functions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hiden {
+  display: none;
+}
+
+.functions {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+  animation: downTop 700ms backwards;
+}
+
+.functions button {
+  background: var(--fc-second);
+  height: 15.2rem;
+  width: 13.8rem;
+  border-radius: 2.4rem;
+}
+
+.enable svg path {
+  fill: var(--bc-primary);
+}
+
+.functions .enable {
+  background: var(--fc-third);
+}
+
+@keyframes topDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes downTop {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .page {
+    display: flex;
+    gap: 19.2rem;
+  }
+}
