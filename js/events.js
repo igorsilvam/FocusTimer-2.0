@@ -30,11 +30,13 @@ export default function Events({ timer, sound, controls }) {
   });
 
   buttonPlus.addEventListener("click", function () {
+    sound.pressSound();
     timer.minutes = timer.minutes + 5;
     timer.updateDisplay(timer.minutes, 0);
   });
 
   buttonMinus.addEventListener("click", function () {
+    sound.pressSound();
     timer.minutes = timer.minutes - 5;
     timer.updateDisplay(timer.minutes, 0);
   });
