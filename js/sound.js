@@ -1,3 +1,10 @@
+import {
+  volumeForest,
+  volumeRain,
+  volumeCoffee,
+  volumeFireplace,
+} from "./elements.js";
+
 export default function Sound() {
   const buttonPressAudio = new Audio(
     "https://github.com/maykbrito/automatic-video-creator/blob/master/audios/button-press.wav?raw=true"
@@ -11,23 +18,31 @@ export default function Sound() {
     "https://github.com/IgorSilvaMedeiros/FocusTimer-2.0/blob/master/sound/forest.wav?raw=true"
   );
 
+  bgForest.volume = volumeForest.value;
+
+  bgForest.loop = true;
+
   const bgRain = new Audio(
     "https://github.com/IgorSilvaMedeiros/FocusTimer-2.0/blob/master/sound/rain.wav?raw=true"
   );
 
-  const bgCoffe = new Audio(
+  bgRain.volume = volumeRain.value;
+
+  bgRain.loop = true;
+
+  const bgCoffee = new Audio(
     "https://github.com/IgorSilvaMedeiros/FocusTimer-2.0/blob/master/sound/coffe.wav?raw=true"
   );
+
+  bgCoffee.volume = volumeCoffee.value;
+
+  bgCoffee.loop = true;
 
   const bgFireplace = new Audio(
     "https://github.com/IgorSilvaMedeiros/FocusTimer-2.0/blob/master/sound/fireplace.wav?raw=true"
   );
 
-  bgForest.loop = true;
-
-  bgRain.loop = true;
-
-  bgCoffe.loop = true;
+  bgFireplace.volume = volumeFireplace.value;
 
   bgFireplace.loop = true;
 
@@ -42,7 +57,7 @@ export default function Sound() {
   return {
     bgForest,
     bgRain,
-    bgCoffe,
+    bgCoffee,
     bgFireplace,
     pressSound,
     timeOut,

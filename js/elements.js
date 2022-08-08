@@ -9,6 +9,10 @@ const buttonForest = document.querySelector(".forest");
 const buttonRain = document.querySelector(".rain");
 const buttonCoffee = document.querySelector(".coffee");
 const buttonFireplace = document.querySelector(".fireplace");
+const volumeForest = document.getElementById("volumeForest");
+const volumeRain = document.getElementById("volumeRain");
+const volumeCoffee = document.getElementById("volumeCoffee");
+const volumeFireplace = document.getElementById("volumeFireplace");
 
 export {
   buttonPlay,
@@ -22,4 +26,8 @@ export {
   buttonRain,
   buttonCoffee,
   buttonFireplace,
+  volumeForest,
+  volumeRain,
+  volumeCoffee,
+  volumeFireplace,
 };

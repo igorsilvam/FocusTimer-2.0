@@ -8,6 +8,10 @@ import {
   buttonRain,
   buttonCoffee,
   buttonFireplace,
+  volumeForest,
+  volumeRain,
+  volumeCoffee,
+  volumeFireplace,
 } from "./elements.js";
 
 export default function Events({ timer, sound, controls }) {
@@ -66,12 +70,12 @@ export default function Events({ timer, sound, controls }) {
   buttonCoffee.addEventListener("click", function () {
     if (buttonCoffee.classList.contains("enable")) {
       buttonCoffee.classList.remove("enable");
-      sound.bgCoffe.pause();
+      sound.bgCoffee.pause();
       return;
     }
 
     buttonCoffee.classList.add("enable");
-    sound.bgCoffe.play();
+    sound.bgCoffee.play();
   });
 
   buttonFireplace.addEventListener("click", function () {
@@ -84,4 +88,16 @@ export default function Events({ timer, sound, controls }) {
     buttonFireplace.classList.add("enable");
     sound.bgFireplace.play();
   });
+
+  volumeForest.addEventListener("mousemove", setvolume);
+  volumeRain.addEventListener("mousemove", setvolume);
+  volumeCoffee.addEventListener("mousemove", setvolume);
+  volumeFireplace.addEventListener("mousemove", setvolume);
+
+  function setvolume() {
+    sound.bgForest.volume = volumeForest.value;
+    sound.bgRain.volume = volumeRain.value;
+    sound.bgCoffee.volume = volumeCoffee.value;
+    sound.bgFireplace.volume = volumeFireplace.value;
+  }
 }
