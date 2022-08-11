@@ -9,10 +9,16 @@ const buttonForest = document.querySelector(".forest");
 const buttonRain = document.querySelector(".rain");
 const buttonCoffee = document.querySelector(".coffee");
 const buttonFireplace = document.querySelector(".fireplace");
+const containerForest = document.querySelector(".containerForest");
+const containerRain = document.querySelector(".containerRain");
+const containerCoffee = document.querySelector(".containerCoffee");
+const containerFireplace = document.querySelector(".containerFireplace");
 const volumeForest = document.getElementById("volumeForest");
 const volumeRain = document.getElementById("volumeRain");
 const volumeCoffee = document.getElementById("volumeCoffee");
 const volumeFireplace = document.getElementById("volumeFireplace");
+const toggle = document.getElementById("toggle");
+const theme = window.localStorage.getItem("theme");
 
 export {
   buttonPlay,
@@ -26,8 +32,14 @@ export {
   buttonRain,
   buttonCoffee,
   buttonFireplace,
+  containerForest,
+  containerRain,
+  containerCoffee,
+  containerFireplace,
   volumeForest,
   volumeRain,
   volumeCoffee,
   volumeFireplace,
+  toggle,
+  theme,
 };
