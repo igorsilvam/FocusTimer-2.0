@@ -3,11 +3,11 @@
 </h1>
 
 <h3 align="center">
-	Project created for focus based on Pomodoro
+	Project created for focus based on Pomodoro with Dark Mode
 </h3>
 
 <h4 align="center">
-	Status: 🚧 In Construction
+	Status: 🚀 Finished
 </h4>
 
 <p align="center">
@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img alt="Capa do projeto" src="./img/img.png" width="100%">
+  <img alt="Capa do projeto" src="./img/img.png" width="80%">
 </p>
 
 ## About
