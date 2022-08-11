@@ -50,13 +50,13 @@ body.dark .enable button svg path {
   fill: var(--fc-primary);
 }
 
-.container {
+.page {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.page {
+.container {
   height: 68rem;
   width: 82.2rem;
   display: grid;
@@ -228,7 +228,7 @@ input[type="range"]::-moz-range-thumb {
 }
 
 @media (min-width: 1024px) {
-  .page {
+  .container {
     display: flex;
     gap: 19.2rem;
     margin-top: 9rem;
