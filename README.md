@@ -43,15 +43,15 @@ In the links below you will find the layout of the web project and also the mobi
 
 To use this project, go to the link:
 
-[Link Project](https://igorsilvamedeiros.github.io/FocusTimer-2.0/)
+[Link Project](https://igorsilvam.github.io/FocusTimer-2.0/)
 
 ## Contact
 
-<img align="left" src="https://avatars.githubusercontent.com/IgorSilvaMedeiros?size=100">
+<img align="left" src="https://avatars.githubusercontent.com/igorsilvam?size=100">
 
-Made with ❤️ by [Igor da Silva](https://github.com/IgorSilvaMedeiros), get in touch!
+Made with ❤️ by [Igor Silva](https://github.com/igorsilvam), get in touch!
 
 <a href="mailto:igoratendimento@outlook.com.br" target="_blank"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Email Badge" height="25"></a>&nbsp;
-<a href="https://www.linkedin.com/in/igor-da-silva-medeiros/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;
+<a href="https://www.linkedin.com/in/igor-da-silva/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;
 
 <br clear="left"/>
